@@ -6,6 +6,9 @@
     "start": "node index.js",
     "test": "npm install inherits && mocha"
   },
+  "publishConfig": {
+    "registry": "http://nexus3.thegobiking.net:8081/repository/npm-private/"
+  },
   "engines": {
     "node": "^4.6.1"
   },
